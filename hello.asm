@@ -45,6 +45,9 @@ start:
    dex
    bpl @loop
 
+   lda 128
+   sta INIDISP
+
    ; Set palette to black background and 3 shades of red
    stz CGADD ; start with color 0 (background)
    stz CGDATA ; None more black
