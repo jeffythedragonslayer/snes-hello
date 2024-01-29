@@ -9,11 +9,11 @@ executables on your path.
 Then run **build.sh** from bash, or just run the build directly on the command line:
 
 ```
-cl65 -C smc.cfg -o hello.smc -l hello.list hello.asm
+cl65 -C sfc.cfg -o hello.sfc -l hello.list hello.asm
 ```
 
-You can then load hello.smc into the SNES/SuperFamiCom emulator of your choice. It has been
-tested on Linux and Windows using Snes9x. If you have an issue with any other emulator or
+You can then load hello.sfc into the SNES/SuperFamiCom emulator of your choice. It has been
+tested on Linux and Windows using Snes9x and bsnes v115. If you have an issue with any other emulator or
 host environment, please post an issue to this repo. Thanks!
 
 See the video on YouTube:
